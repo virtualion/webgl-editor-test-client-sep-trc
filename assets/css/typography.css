@@ -1,0 +1,313 @@
+.heading-3 {
+  font-feature-settings: 'clig' off, 'liga' off;
+  /* Header/H3 */
+  font-family: "Roobert", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px; /* 120% */
+  letter-spacing: 0.5px;
+}
+
+.heading-4 {
+  font-feature-settings: 'clig' off, 'liga' off;
+  /* Header/H4 */
+  font-family: "Roobert", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 125% */
+}
+
+.heading-5 {
+  font-feature-settings: 'clig' off, 'liga' off;
+  /* Header/H5 */
+  font-family: 'Roobert', sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px;
+  /* or 136% */
+}
+
+.heading-6 {
+  font-feature-settings: 'clig' off, 'liga' off;
+  /* Header/H6 */
+  font-family: "Roobert", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px; /* 150% */
+}
+
+.bodyLargeBold {
+  font-feature-settings: 'clig' off, 'liga' off;
+  /* Body Large/Bold */
+  font-family: "Roobert", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 160% */
+}
+
+.bodyMediumMedium {
+  font-feature-settings: 'clig' off, 'liga' off;
+  /* Body Medium/Medium */
+  font-family: "Roobert", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+
+.bodyMediumReguler {
+  font-feature-settings: 'clig' off, 'liga' off;
+  /* Body Medium/Regular */
+  font-family: "Roobert", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.bodySmallMedium {
+  font-feature-settings: 'clig' off, 'liga' off;
+  /* Body Small/Medium */
+  font-family: "Roobert", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+}
+
+.bodySmallReguler {
+  font-feature-settings: 'clig' off, 'liga' off;
+  /* Body Small/Reguler */
+  font-family: "Roobert", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+
+.captionReguler {
+  font-feature-settings: 'clig' off, 'liga' off;
+  /* Caption/Reguler */
+  font-family: "Roobert", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+  letter-spacing: 0.2px;
+}
+
+@media (min-width: 768px) {
+  .heading-3-md {
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Header/H3 */
+    font-family: "Roobert", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* 120% */
+    letter-spacing: 0.5px;
+  }
+
+  .heading-4-md {
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Header/H4 */
+    font-family: "Roobert", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 125% */
+  }
+
+  .heading-5-md {
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Header/H5 */
+    font-family: 'Roobert', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+    /* or 136% */
+  }
+
+  .heading-6-md {
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Header/H6 */
+    font-family: "Roobert", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 150% */
+  }
+  
+  .bodyLargeBold-md {
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Body Large/Bold */
+    font-family: "Roobert", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 160% */
+  }
+  
+  .bodyMediumMedium-md {
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Body Medium/Medium */
+    font-family: "Roobert", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+  }
+  
+  .bodyMediumReguler-md {
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Body Medium/Regular */
+    font-family: "Roobert", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
+  
+  .bodySmallMedium-md {
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Body Small/Medium */
+    font-family: "Roobert", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+  }
+  
+  .bodySmallReguler-md {
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Body Small/Reguler */
+    font-family: "Roobert", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+  }
+  
+  .captionReguler-md {
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Caption/Reguler */
+    font-family: "Roobert", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 133.333% */
+    letter-spacing: 0.2px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .heading-3-lg {
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Header/H3 */
+    font-family: "Roobert", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* 120% */
+    letter-spacing: 0.5px;
+  }
+
+  .heading-4-lg {
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Header/H4 */
+    font-family: "Roobert", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 125% */
+  }
+
+  .heading-5-lg {
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Header/H5 */
+    font-family: 'Roobert', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+    /* or 136% */
+  }
+
+  .heading-6-lg {
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Header/H6 */
+    font-family: "Roobert", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 150% */
+  }
+  
+  .bodyLargeBold-lg {
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Body Large/Bold */
+    font-family: "Roobert", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 160% */
+  }
+  
+  .bodyMediumMedium-lg {
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Body Medium/Medium */
+    font-family: "Roobert", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+  }
+  
+  .bodyMediumReguler-lg {
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Body Medium/Regular */
+    font-family: "Roobert", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
+  
+  .bodySmallMedium-lg {
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Body Small/Medium */
+    font-family: "Roobert", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+  }
+  
+  .bodySmallReguler-lg {
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Body Small/Reguler */
+    font-family: "Roobert", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+  }
+  
+  .captionReguler-lg {
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Caption/Reguler */
+    font-family: "Roobert", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 133.333% */
+    letter-spacing: 0.2px;
+  }
+}
+

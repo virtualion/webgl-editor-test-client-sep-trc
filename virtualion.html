@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtualion</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="stylesheet" href="TemplateData/popup.css">
+    <link rel="stylesheet" href="assets/css/swal-style.css">
+  
+
+  <link rel="stylesheet" href="assets/css/index.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+  />
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <!-- <script type="module" src="assets/js/index.js"></script>  -->
+  <script type="module" src="assets/js/virtualion.js"></script>
+</head>
+<body>
+  <nav class="navigation">
+    <div class="leftNavigation">
+      <button class="hamburgerBtn">
+        <img class="img" src="assets/icon/hamburger-icon.png"/>
+      </button>
+      <button class="closeNavigationBtn hide">
+        <img class="img" src="assets/icon/close-icon.png"/>
+      </button>
+      <div class="app-action-container">
+        <a href="/" class="navigation__app">
+          <img class="app__logo" src="assets/img/app-logo.png">
+        </a>
+        <span class="app-action-divider"></span>
+        <div class="language-switcher">
+          <btn data-lang="en" class="language-switcher-item bodySmallReguler">
+            <span>ENG</span>
+          </btn>
+          <btn data-lang="jp" class="language-switcher-item bodySmallReguler">
+            <span>JPN</span>
+          </btn>
+        </div>
+      </div>
+    </div>
+    
+    <ul class="share-container">
+      <div class="shareCopyLinkContainer">
+        <a href="#" class="share-item-link copyLink">
+          <img class="icon-link" src="assets/icon/copy-link-icon.png" alt="" />
+        </a>
+        <div class="containerLabelCopiedLink">
+          <p class="bodySmallMedium">Copied</p>
+        </div>
+      </div>
+      <a href="#" class="share-item-link pinterestLink">
+        <img class="icon-link" src="assets/icon/pinterest-icon.png" alt="" />
+      </a>
+      <a href="#" class="share-item-link twitterLink">
+        <img class="icon-link" src="assets/icon/twitter-icon.png" alt="" />
+      </a>
+      <a href="#" class="share-item-link facebookLink">
+        <img class="icon-link" src="assets/icon/facebook-icon.png" alt="" />
+      </a>
+    </ul>
+
+    <div class="buttonGroup">
+      <!-- Button Tutorial -->
+      <div class="tutorialContainer">
+        <button class="tutorialBtn">
+          <svg class="icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.33333 7.0852C8.48016 6.6678 8.76998 6.31584 9.15144 6.09165C9.53291 5.86745 9.98141 5.7855 10.4175 5.86031C10.8536 5.93511 11.2492 6.16184 11.5341 6.50034C11.8191 6.83884 11.975 7.26726 11.9744 7.70973C11.9744 8.9588 10.1008 9.58333 10.1008 9.58333M10.1249 12.0833H10.1333M8.25 16L9.46667 17.6222C9.6476 17.8635 9.73807 17.9841 9.84897 18.0272C9.94611 18.065 10.0539 18.065 10.151 18.0272C10.2619 17.9841 10.3524 17.8635 10.5333 17.6222L11.75 16C11.9943 15.6743 12.1164 15.5114 12.2654 15.3871C12.4641 15.2213 12.6986 15.104 12.9504 15.0446C13.1393 15 13.3429 15 13.75 15C14.9149 15 15.4973 15 15.9567 14.8097C16.5693 14.556 17.056 14.0693 17.3097 13.4567C17.5 12.9973 17.5 12.4149 17.5 11.25V6.5C17.5 5.09987 17.5 4.3998 17.2275 3.86502C16.9878 3.39462 16.6054 3.01217 16.135 2.77248C15.6002 2.5 14.9001 2.5 13.5 2.5H6.5C5.09987 2.5 4.3998 2.5 3.86502 2.77248C3.39462 3.01217 3.01217 3.39462 2.77248 3.86502C2.5 4.3998 2.5 5.09987 2.5 6.5V11.25C2.5 12.4149 2.5 12.9973 2.6903 13.4567C2.94404 14.0693 3.43072 14.556 4.04329 14.8097C4.50272 15 5.08515 15 6.25 15C6.65715 15 6.86072 15 7.04959 15.0446C7.30141 15.104 7.53593 15.2213 7.73458 15.3871C7.88357 15.5114 8.00571 15.6743 8.25 16Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>          
+        </button>
+
+        <div class="tutorialDrawer">
+          <div class="swiper-tutorial-virtualion">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide tutorialItem">
+                <div class="tutorialIllustration">
+                  <img class="img" src="assets/img/tutorial/how-to-move-1.webp" alt=""/>
+                </div>
+                <div class="tutorialInstructions">
+                  <p class="title heading-6">HOW TO MOVE <span class="bodyLargeBold">(<span>1</span>/2)</span></p>
+                  <ul class="instructions">
+                    <li class="bodyLargeBold">Right drag to move the viewpoint, wheel or pinch in/out to zoom in/out.</li>
+                    <li class="bodyLargeBold">Use the <span class="bold">WSAD</span> keys to move forward, backward, left, and right.</li>
+                    <li class="bodyLargeBold">Double click on walls or floors to move to the clicked point</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="swiper-slide tutorialItem">
+                <div class="tutorialIllustration">
+                  <img class="img" src="assets/img/tutorial/how-to-move-2.webp" alt=""/>
+                </div>
+                <div class="tutorialInstructions">
+                  <p class="title heading-6">HOW TO MOVE <span class="bodyLargeBold">(<span>2</span>/2)</span></p>
+                  <ul class="instructions">
+                    <li class="bodyLargeBold">Display switching (on/off) for controller of movement with mouse</li>
+                    <li class="bodyLargeBold">Move with mouse:Drag on the translucent panel on the translucent panel to move around.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="swiper-slide tutorialItem">
+                <div class="tutorialIllustration">
+                  <img class="img" src="assets/img/tutorial/how-to-show-caption.webp" alt=""/>
+                </div>
+                <div class="tutorialInstructions">
+                  <p class="title heading-6">HOW TO SHOW CAPTION</p>
+                  <ul class="instructions">
+                    <li class="bodyLargeBold">Open caption panel with a button on the right-below, and then yellow markers show up (only if available).</li>
+                    <li class="bodyLargeBold">Click on the marker to display the caption in the lower left window. The caption content will appear in the lower left window.If there is a "FIND MORE" button, click it for more information.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="swiper-slide tutorialItem">
+                <div class="tutorialIllustration">
+                  <img class="img" src="assets/img/tutorial/how-to-control-audio.webp" alt=""/>
+                </div>
+                <div class="tutorialInstructions">
+                  <p class="title heading-6">HOW TO CONTROL AUDIO</p>
+                  <ul class="instructions">
+                    <li class="bodyLargeBold">When you approach the video, the playback panel appears. The playback position can be adjusted with the seek bar. Volume can be adjusted with the bar on the right.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiperController">
+            <!-- Pagination -->
+            <div class="tutorialPagination">
+              <span class="paginationItem active"></span>
+              <span class="paginationItem"></span>
+              <span class="paginationItem"></span>
+              <span class="paginationItem"></span>
+            </div>
+
+            <!-- Navigation -->
+            <div class="tutorialNavigation">
+              <button class="navigationButton prevBtnTutorial disabled">
+                <svg class="arrowIcon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20 12H4M4 12L10 18M4 12L10 6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>                  
+              </button>
+              <button class="navigationButton nextBtnTutorial">
+                <svg class="arrowIcon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4 12H20M20 12L14 6M20 12L14 18" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>                  
+              </button>
+            </div>
+          </div>
+
+          <div class="borderBottomTutorial">
+            <div class="borderInner"></div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Button Share -->
+      
+
+      <span class="v-divider"></span>
+
+      <button class="subscribeBtn">
+        <span class="label bodySmallMedium">Subscribe</span>
+      </button>
+    </div>
+  </nav>
+  <div class="navigationDrawer">
+    <ul class="navigationGroup">
+      <li class="bodySmallReguler item">Home</li>
+      <li class="bodySmallReguler item">Our Curators</li>
+      <li class="bodySmallReguler item">About</li>
+      <li class="bodySmallReguler item">News</li>
+      <li class="bodySmallReguler item">Contact</li>
+    </ul>
+
+    <div class="groupButton">
+      <button>
+        <img src="assets/icon/question-icon.png" class="img"/>
+      </button>
+      <button>
+        <img src="assets/icon/share-icon.png" class="img"/>
+      </button>
+    </div>
+  </div>
+
+  <main>
+    <div class="virtualion-detail">
+
+    <div id="unity-container" class="unity-desktop">
+      <canvas id="unity-canvas"></canvas>
+      <div id="unity-logo"><img src="TemplateData/unity-logo-light.gif" class="load_gif"></div>
+      <div id="unity-loading-bar">
+        <div id="unity-progress-bar-empty">
+          <div id="unity-progress-bar-full"></div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+      <button class="actionBtn fullscreenB" id="unity-fullscreen-button">
+        <img class="img" src="assets/icon/maximize-icon.png" alt=""/>
+      </button>
+
+
+
+      <div class="informationDetailBlock">
+        <button class="actionBtn informationDetailButton" id="unity-fullscreen-button">
+          <img class="img iconWhite" src="assets/icon/info-circle-icon-white.png" alt=""/>
+          <img class="img iconBlack" src="assets/icon/info-circle-icon-black.png" alt=""/>
+        </button>
+
+        <div class="informationDetailContainer">
+
+          <div class="informationStatisticCreator">
+            <button class="button06">+</button>
+	        <div class="popover" id="popover">
+	            <iframe id="iframe-v" src="https://note.com/embed/notes/nb39c99751009" frameborder="0"></iframe>
+	        </div>
+          </div>
+
+        </div>
+      </div>
+      
+      
+      
+    </div>
+
+
+
+    </div>
+  </main>
+  
+  
+  
+  
+  
+  <script>
+      const isMobile = window.matchMedia("(max-width: 576px)")
+      var buildUrl = isMobile.matches ? "Build_Mob" : "Build";
+      var loaderUrl = buildUrl + "/Neue.loader.js";
+      var config = {
+        dataUrl: buildUrl + "/Neue.data.unityweb",
+        frameworkUrl: buildUrl + "/Neue.framework.js.unityweb",
+        codeUrl: buildUrl + "/Neue.wasm.unityweb",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "ProjectVirtualion",
+        productName: "Virtualion",
+        productVersion: "1.1",
+      };
+
+      var container = document.querySelector("#unity-container");
+      var canvas = document.querySelector("#unity-canvas");
+      var loadingBar = document.querySelector("#unity-loading-bar");
+      var loadingWindow = document.querySelector("#unity-logo");
+      var progressBarFull = document.querySelector("#unity-progress-bar-full");
+      var fullscreenButton = document.querySelector("#unity-fullscreen-button");
+      var mobileWarning = document.querySelector("#unity-mobile-warning");
+      var footer = document.querySelector("#unity-fullscreen-button");
+      let exp_full = document.getElementById('unity-fullscreen-button');
+      exp_full.style.display = "none";
+
+      // By default Unity keeps WebGL canvas render target size matched with
+      // the DOM size of the canvas element (scaled by window.devicePixelRatio)
+      // Set this to false if you want to decouple this synchronization from
+      // happening inside the engine, and you would instead like to size up
+      // the canvas DOM size and WebGL render target sizes yourself.
+      // config.matchWebGLToCanvasSize = false;
+
+      /*if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        // container.className = "unity-mobile";
+        // Avoid draining fillrate performance on mobile devices,
+        // and default/override low DPI mode on mobile browsers.
+        config.devicePixelRatio = 1;
+        canvas.style.width = "900px";
+        canvas.style.height = "1700px";
+        footer.style.display = "none";
+        container.style.transform = "translate(-50%, -39%)";
+      } else {
+        canvas.style.width = "100%";
+        canvas.style.height = "100%";
+      }*/
+
+      canvas.style.width = "100%";
+      canvas.style.height = "100%";
+
+      canvas.style.background = "url('" + buildUrl + "/Neue.jpg') center / cover";
+      loadingBar.style.display = "block";
+
+      var script = document.createElement("script");
+      script.src = loaderUrl;
+      script.onload = () => {
+        createUnityInstance(canvas, config, (progress) => {
+          progressBarFull.style.width = 100 * progress + "%";
+        }).then((unityInstance) => {
+          loadingBar.style.display = "none";
+          loadingWindow.style.display = "none";
+          fullscreenButton.onclick = () => {
+            unityInstance.SetFullscreen(1);
+          };
+                    exp_full.style.display = "flex";
+        }).catch((message) => {
+          alert(message);
+        });
+      };
+      document.body.appendChild(script);
+      
+      const toogleButtonInformationDetailA = document.querySelector('.actionBtn.informationDetailButton')
+      const informationDetailContainerA = document.querySelector('.informationDetailBlock .informationDetailContainer')
+      const popover = document.getElementById('popover');
+      const buttonToggleObj = document.querySelector('.button06')
+
+      function runURLPop(texturl) {
+      
+        var iframe = document.getElementById('iframe-v');
+        iframe.src = texturl;
+        if( (texturl.includes(".youtube.com/embed/") ||  texturl.includes("sketchfab.com/models/") || texturl.includes("note.com/embed")) && buttonToggleObj.textContent=="+" ){
+           popover.style.height = "200px";
+           informationDetailContainerA.style.top = "48px";
+           informationDetailContainerA.style.marginLeft = "0px";
+           informationDetailContainerA.style.minWidth = "300px";
+        }else{
+           popover.style.width = "800px";
+           popover.style.height = "600px";
+           informationDetailContainerA.style.top = "-200px";
+           informationDetailContainerA.style.marginLeft = "50px";
+           informationDetailContainerA.style.minWidth = "700px";
+           buttonToggleObj.textContent = "-";
+           buttonToggleObj.style.height="600px";
+        }
+        
+        if (informationDetailContainerA.classList.contains('show')) {
+          //informationDetailContainerA.classList.remove('show');
+          //toogleButtonInformationDetailA.classList.remove('active')
+        }else {
+          informationDetailContainerA.classList.add('show')
+          toogleButtonInformationDetailA.classList.add('active')
+        }
+      }
+      
+      
+      function butotnClickToggle(){
+          if(buttonToggleObj.textContent=="+"){
+           popover.style.width = "800px";
+           popover.style.height = "600px";
+           informationDetailContainerA.style.top = "-200px";
+           informationDetailContainerA.style.marginLeft = "50px";
+           informationDetailContainerA.style.minWidth = "800px";
+           buttonToggleObj.textContent = "-";
+           buttonToggleObj.style.height="600px";
+          }else{
+           popover.style.height = "200px";
+           informationDetailContainerA.style.top = "48px";
+           informationDetailContainerA.style.marginLeft = "0px";
+           informationDetailContainerA.style.minWidth = "300px";
+           buttonToggleObj.textContent = "+";
+           buttonToggleObj.style.height="200px";
+          }
+      }
+      buttonToggleObj.onclick = butotnClickToggle;
+
+     const userID = "test-trc";
+     const bucketID = "txt-bucket-954976307100";
+
+      /* Swalのセーブボタンからデータを受け取って保存 */
+      function saveData(){//savecont, pjname){
+          //const pjname = document.getElementById('PrjNameInput').value;
+          var iframer = document.getElementById('swal-demo2');
+          var iframeDocument = iframer.contentDocument || iframer.contentWindow.document;
+          const pjname = iframeDocument.getElementById('PrjNameInput').value;
+          const pjmemo = iframeDocument.getElementById('message').value;
+          const savecont = document.getElementById('savecont').value;
+          //console.log(pjname + "|" + savecont);
+          const delimiter = "_###_";
+          const result = savecont.split(new RegExp(delimiter, 'g'));
+          
+          const user = userID;
+          const bucket = bucketID;
+          const path = "data/" + user + "/SavedData/" + pjname;
+          
+          const pjinfo = "#root=https://" + bucket + ".s3.ap-northeast-1.amazonaws.com/" + "data/" + user + "/\n" + "#prj=" + pjname + "\n" + "#desc=" + pjmemo;
+          upTxtS3(savecont, bucket, "pjc_"+pjname+".txt", user, path);
+          upTxtS3(result[0], bucket, "LogDataPic"+pjname+".txt", user, path);
+          upTxtS3(result[1], bucket, "LogDataDai"+pjname+".txt", user, path);
+          upTxtS3(result[2], bucket, "LogDataURL"+pjname+".txt", user, path);
+          upTxtS3(result[3], bucket, "LogDataRit"+pjname+".txt", user, path);
+          upTxtS3(result[4], bucket, "LogDataCap"+pjname+".txt", user, path);
+          upTxtS3(result[5], bucket, "LogDataLit"+pjname+".txt", user, path);
+          upTxtS3(result[6], bucket, "LogDataRou"+pjname+".txt", user, path);
+          upTxtS3(result[7], bucket, "LogDataExbInfo"+pjname+".txt", user, path);
+          upTxtS3(pjinfo, bucket, "pj_"+pjname+".txt", user, path);
+          upPrjList(bucket, user, pjname);
+          
+          document.getElementById('saved').hidden = false;
+      }
+      
+      async function upPrjList(bucket, user, pjname){
+
+          var text = [];
+          const datapath = "https://" + bucket + ".s3.ap-northeast-1.amazonaws.com/" + "data/" + user + "/prjlist.txt";
+          const response = await fetch(datapath, {cache: "no-store"});
+          console.log(response.status)
+          text = await response.text();
+          if(response.status != 200){
+            text = "";
+          }
+          const data = text.trim().split('\n')
+            .map(line => line.split('\t').map(x => x.trim()));
+          //console.log(data);
+          var saveString = "";
+          var duplicated = [];
+          for (let i = 0; i < data.length; i++) {
+            if(data[i][0] != pjname && (data[i][1] == "1" || data[i][1] == "0")){
+              saveString = saveString + data[i][0] + "\t" + data[i][1] + "\n";
+              duplicated.push(data[i][0]);
+            }
+          }
+          saveString = pjname + "\t1\n" + saveString ;
+          const path2 = "data/" + user;
+          upTxtS3(saveString, bucket, "prjlist.txt", user, path2);
+      }
+      
+      async function upTxtS3(textInput, bucket, fileNameBase, user, path){
+          
+          try {
+              const fullFileName = `${fileNameBase}`; // Save the text as a .txt file
+              const contentType = 'text/plain';
+
+              const apiKey = 'UfKlzFiQm79delqPkvUtL6QwETbQkS2N7DilssuJ';
+              const response = await fetch(`https://q9yyihctlj.execute-api.ap-northeast-1.amazonaws.com/default/lambda-upload-txt?fileName=${path}/${fullFileName}&contentType=${contentType}&bucket=${bucket}`, {
+                  headers: {
+                      'x-api-key': apiKey
+                  }
+              });
+
+              if (response.ok) {
+                  const data = await response.json();
+                  const presignedUrl = data.url;
+                  //console.log('Presigned URL:', presignedUrl);
+
+                  // Upload the text to S3
+                  const uploadResponse = await fetch(presignedUrl, {
+                      method: 'PUT',
+                      body: textInput,
+                      headers: {
+                          'Content-Type': contentType
+                      }
+                  });
+
+                  if (uploadResponse.ok) {
+                      console.log('Text uploaded successfully!');
+                  } else {
+                      console.error('Upload failed:', uploadResponse.statusText);
+                      console.log('Failed to upload text.');
+                  }
+              } else {
+                  const errorData = await response.json();
+                  console.error('Error:', errorData.error);
+                  alert(`Error: ${errorData.error}`);
+              }
+          } catch (error) {
+              console.error('Error:', error);
+              alert('An error occurred.');
+          }
+      }
+      
+      function saveDataPassToIframe(savecont, pjname){
+          //console.log('iframe operation');
+          //var iframer = document.getElementById('swal-demo');
+          //var iframeDocument = iframer.contentDocument || iframer.contentWindow.document;
+          //iframeDocument.getElementById('savecont').value = savecont;
+          //iframeDocument.getElementById('pjname').value = pjname;
+      }
+
+    </script>
+    <style>
+	.popover {
+	    position: relative;
+	    display: block;
+	    width: 300px;
+	    height: 200px;
+	    border: 2px solid #ddd;
+	    background-color: #fff;
+	    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	    z-index: 1000; /* 画像の上に表示 */
+	    left:  0px;
+	    top: 0px;
+	}
+	.popover iframe {
+	    width: 100%;
+	    height: 100%;
+	}
+	
+	.button06 {
+	  opacity: 0.35; 
+	  display: inline-block;
+	  background-color: #AAA;
+	  border: solid 2px #fff;
+	  color: #fff;
+	  width: 15px;
+	  height: 200px;
+	  border-radius: 2px;
+	  text-align: center;
+	  font-size: 1em;
+	  text-decoration: none;
+	}
+	.button06:hover {
+	  opacity: 0.1; 
+	  background-color: #AAA;
+	  color: #fff;
+	}
+    </style>
+</body>
+</html>

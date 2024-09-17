@@ -1,0 +1,8 @@
+Art
+City
+Culture
+Geography
+Person
+Science
+Social
+Technology
